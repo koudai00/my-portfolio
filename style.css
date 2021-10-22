@@ -1,0 +1,74 @@
+html {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.h1 {
+  color: aliceblue;
+  background-color: black;
+  text-align: center;
+}
+
+/* 写真全て */
+.photo img {
+  height: 50%;
+  width: 50%;
+  float: left;
+}
+.titlepro {
+  padding: 50px;
+}
+
+/* nameとuniversity */
+.naiyou-nakami1 {
+  border: 1px solid;
+  height: 100px;
+  width: 50%;
+}
+.naiyou1 {
+  width: 300px;
+  display: flex;
+}
+/* ageとbirthday同列 */
+.naiyou-nakami3 {
+  border: 1px solid;
+  height: 100px;
+  width: 50%;
+}
+.naiyou2 {
+  width: 300px;
+  display: flex;
+}
+
+/* 以下hobby &like */
+
+.naiyou-nakami5 {
+  overflow: hidden;
+}
+.baseball {
+  float: left;
+}
+.drive {
+  float: left;
+}
+
+.question {
+  text-align: center;
+  border: 1px solid;
+}
+.answer1 {
+  border: 1px solid;
+}
+.answer2 {
+  border: 1px solid;
+}
+.answer3 {
+  border: 1px solid;
+}
+
+.footer {
+  color: blanchedalmond;
+  background-color: black;
+  text-align: center;
+  padding: 100px;
+  border: 1px solid;
+}
