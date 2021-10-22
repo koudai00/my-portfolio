@@ -13,3 +13,9 @@ answer2.onclick = function () {
 answer3.onclick = function () {
   feedback.textContent = "大正解！！！！！これで君も五十嵐マスター！";
 };
+
+const lastbutton = document.getElementById("lastbutton");
+
+lastbutton.onclick = function () {
+  alert("あるわけないっしょ。こんなんでいいことあったらドラえもんいらんで。");
+};

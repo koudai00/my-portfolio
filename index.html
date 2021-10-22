@@ -10,36 +10,30 @@
   </head>
   <body>
     <header>
-      <h1>My Portfolio</h1>
-      <h2>Koudai Igarashi</h2>
-      <div class="photo">
-        <img src="igayomiran.jpeg" alt="" />
-        <img src="igadisney.JPG" alt="" />
-        <img src="igahuzake.jpg" alt="" />
-        <img src="igadrive.jpg" alt="" />
-        <img src="igabaesya.JPG" alt="" />
-        <img src="igafuzake.JPG" alt="">
-      </div>
+      <h1 class ="daimei">My Portfolio</h1>
+      <h2 class ="namae">Koudai Igarashi</h2>
+      
     </header>
 
     <!-- 自己紹介の中身-->
     <section id="naiyou">
-      <u><h2 class="titlepro">My Profile</h2></u>
+      <u><h2 class="taitoru">My Profile</h2></u>
       <div class="naiyou-container">
+        <div class="MyProfile">
         <!-- naiyou1 -->
         <div class="naiyou1">
           <!-- 名前部分 ①-->
           <div class="naiyou-nakami1">
             　
-            <p>name</p>
+            <u><h3>name</h3></u>
             　
             <p>五十嵐　広大</p>
           </div>
           　 　　
           <!-- 　大学 ① -->
-          <div class="naiyou-nakami2">
+          <div class="naiyou-nakami1">
             　
-            <p>university</p>
+            <u><h3>university</h3></u>
             　
             <p>法政大学</p>
             　
@@ -48,43 +42,55 @@
         <!-- 　　naiyou2　　　 -->
         <div class="naiyou2">
           <!-- 　年齢  ②-->
-          <div class="naiyou-nakami3">
+          <div class="naiyou-nakami2">
             　
-            <p>age</p>
+            <u><h3>age</h3></u>
             　
             <p>21</p>
             　
           </div>
 
           　<!-- 誕生日 ②-->
-          <div class="naiyou-nakami4">
+          <div class="naiyou-nakami2">
             　
-            <p>birthday</p>
+            <u> <h3>birthday</h3></u>
             　
             <p>2000/6/28</p>
             　
           </div>
         </div>
-        
+      </div>
+        <!-- my face -->
+        <u><h2 class="taitoru">My Face</h2></u>
           </div>
-           　
+          　
+            <div class="photo">
+              <img src="igayomiran.jpeg" alt="" />
+              <img src="igadisney.JPG" alt="" />
+              <img src="igakawagoe.JPG" alt="" />
+              <img src="igahuzake.jpg" alt="" />
+              <img src="igadrive.jpg" alt="" />
+              <img src="igabakeha.JPG" alt=""> 
+          </div>
+        
+
           <!-- 趣味 -->
           <div class="naiyou-nakami5">
-            　
-            <p>hobby & like</p>
-            　
-            <div class="baseball">
-            <p class="like1">野球観戦</p>
-          </div>
-              
+            <div class="taitoru">
+            <u><h2 >Hobby & like</h2></u>
+          </div>　
+            <div class="Hobby">
+            <div class="list">
+              <h2>野球観戦</h2>
             </div>
+            <div class="list">
+              <h2>ドライブ</h2>
+            </div>
+            <div class="list">
+              <h2>ディズニー</h2>
+            </div>
+            
           </div>
-          <div class="drive">
-            <p class="like2">ドライブ</p>
-          </div>
-
-          <div class="disney">
-            <p class="like3">ディズニー</p>
           </div>
 
           　
@@ -93,20 +99,26 @@
       
       <div class="question">
       <div>
-        <h2>くえすちょん</h2>
-        <h3>ここまで見てきた僕の写真はかっこいいでしょうか？</h3>
+        <u><h2 class="taitoru">question</h2></u>
+        <h3 class="setsumon">ここまで見てきた僕の写真はかっこいいでしょうか？</h3>
+        <div class = "kaitou">
         <div>
           <button id="answer1">①かっこいい！</button>
           <button id="answer2">②えー微妙、、</button>
           <button id="answer3">③盛れてるだけやろ</button>
         </div>
+
       </div>
-      <div id="feedback"></div>
+      <div id="feedback">よ〜く考えるんだよ🥺</div>
+    </div>
+    </div>
+    <div class= "saigo-button">
+    <button id="lastbutton">押したらいいことが、、、？</button>
     </div>
     </section>
-    <footer>
-      <p>kokomademitekuretethankyoudayo</p>
-    </footer>
+    <div class="footer">
+      <p>©️kokomademitekuretethankyoudayo, All Rights Reserved.</p>
+    </div>
 
     <script src="main.js"></script>
   </body>

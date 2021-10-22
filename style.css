@@ -2,73 +2,150 @@ html {
   font-family: "Times New Roman", Times, serif;
 }
 
-.h1 {
-  color: aliceblue;
-  background-color: black;
+.daimei {
+  background: linear-gradient(
+    180deg,
+    rgba(223, 137, 25, 0.918) 80%,
+    rgb(223, 137, 25, 0.918) 100px,
+    rgba(7, 56, 189, 0.918) 100px,
+    rgb(7, 56, 189, 0.918) 20%
+  );
   text-align: center;
+  font-size: 50px;
+  padding: 30px;
+  color: aliceblue;
 }
 
-/* 写真全て */
-.photo img {
-  height: 50%;
-  width: 50%;
-  float: left;
+.namae {
+  text-align: right;
+  font-size: 30px;
+  padding: 20px;
 }
-.titlepro {
-  padding: 50px;
+/* myなんたらとquestionで使ってる */
+.taitoru {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
+}
+
+/* my profile */
+
+.MyProfile {
+  height: 200px;
+  margin: 50px 100px;
+}
+.naiyou-nakami1 h3 {
+  font-size: 35px;
+}
+
+.naiyou-nakami2 h3 {
+  font-size: 35px;
 }
 
 /* nameとuniversity */
 .naiyou-nakami1 {
-  border: 1px solid;
   height: 100px;
   width: 50%;
 }
 .naiyou1 {
-  width: 300px;
+  display: inline-block;
+  height: 50px;
   display: flex;
+  text-align: center;
+  margin-bottom: 90px;
 }
 /* ageとbirthday同列 */
-.naiyou-nakami3 {
-  border: 1px solid;
+.naiyou-nakami2 {
   height: 100px;
   width: 50%;
 }
+
 .naiyou2 {
-  width: 300px;
+  display: inline-block;
+  height: 50px;
   display: flex;
+  text-align: center;
+  margin-bottom: 500px;
+}
+/* 写真全て */
+.photo img {
+  height: 50%;
+  width: 30%;
+  float: left;
+  padding: 20px;
+  border: 10px solid #9e6421bd;
 }
 
 /* 以下hobby &like */
 
-.naiyou-nakami5 {
-  overflow: hidden;
-}
-.baseball {
-  float: left;
-}
-.drive {
-  float: left;
+.Hobby {
+  height: 200px;
+  margin: 0px 50px;
 }
 
-.question {
+.list h2 {
+  width: 33%;
+  display: inline-block;
+  height: 100px;
+  float: left;
   text-align: center;
+}
+
+/* question */
+.setsumon {
+  text-align: center;
+  padding: 50px;
+  font-size: 30px;
+}
+
+.kaitou {
+  text-align: center;
+  font-size: 20px;
+}
+#answer1 {
   border: 1px solid;
 }
-.answer1 {
+#answer2 {
   border: 1px solid;
 }
-.answer2 {
+#answer3 {
   border: 1px solid;
 }
-.answer3 {
+#feedback {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  text-align: center;
+}
+
+/* lastbutton */
+#lastbutton {
+  display: block;
+  text-align: center;
+  font-size: 20px;
   border: 1px solid;
+  margin-top: 150px;
+
+  position: absolute;
+  transform: translate(-50%, 0%);
+  left: 50%;
+}
+.saigo-button {
+  position: relative;
+  height: 100px;
 }
 
 .footer {
-  color: blanchedalmond;
-  background-color: black;
+  color: aliceblue;
+  font-size: 20px;
+  background: linear-gradient(
+    180deg,
+    rgba(223, 137, 25, 0.918) 85%,
+    rgb(223, 137, 25, 0.918) 50px,
+    rgba(7, 56, 189, 0.918) 50px,
+    rgb(7, 56, 189, 0.918) 15%
+  );
   text-align: center;
-  padding: 100px;
-  border: 1px solid;
+  padding: 30px;
+  margin-top: 100px;
 }
