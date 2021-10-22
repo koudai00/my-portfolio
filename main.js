@@ -19,3 +19,4 @@ const lastbutton = document.getElementById("lastbutton");
 lastbutton.onclick = function () {
   alert("あるわけないっしょ。こんなんでいいことあったらドラえもんいらんで。");
 };
+
